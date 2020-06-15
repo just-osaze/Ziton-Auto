@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/car3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;  
+    background-size: cover;    
+}
+
+.container{
+    margin: auto;
+}
+
+/* style for nav bar */
+
+.navbar ul{
+    list-style-type: none;
+}
+
+.navbar li{
+    display:inline;       
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    color:#ffffff
+}
+
+header a:hover{
+    color:#f05837;
+    font-weight: bold;
+}
+
+header .standout, header .current a{
+    color:#f18904;
+}
+
+.navbar{
+    overflow: hidden;
+    float: right;
+    margin-top: -70px;    
+}
+
+/* style for Ziton Autocare logo */
+
+#logo{
+    color:#ffffff;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+
+/* style for picture after nav bar */
+
+#view{
+    min-height: 400px;
+    background: url(../images/car4.jpg)  no-repeat 0 -100px;
+    color:#ffffff;
+    text-align: center;
+    border-top: #36688d 3px solid;
+    border-bottom: #f18904 3px solid;
+    background-size: cover;
+    text-shadow:0 0 15px #000000;
+    box-shadow: 0 0 15px #fff;
+}
+
+#view h1{
+    margin-top:100px ;
+    font-size:60px;
+}
+
+#view p{
+    font-size: 20px;
+    color:#f18904;
+    margin-top: -40px;
+}
+
+/* style for logos after nav bar */
+
+#partners{    
+    margin-top: 1px;
+    background-color: #36688d; 
+    padding: 0 0 0 5px;
+    border-bottom: #f18904 3px solid;   
+}
+
+#partners .class{
+    float: left;
+    background-color: #36688d;      
+}
+
+#partners img{
+    width: 2.45%;
+}
+
+/* style for welcome section on home screen */
+
+#info{
+    color: bisque;
+    width: 100%;
+    box-shadow: 0 0 15px #fff;    
+    overflow: hidden;
+    border-bottom: #36688d 3px solid;
+    border-top: #36688d 3px solid;
+    margin:10px 0 50px 0;
+}
+
+#info .welcome{
+    padding: 50px;
+    text-align: center;
+    color: #747474
+}
+
+#info .infos{
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+
+#info h3{
+    text-shadow:0 0 5px #fff;
+}
+/* style for list of cars and logo on homepage */
+
+#car-make{
+    background: #ffffff;
+    color: black;
+    width: 100%;
+    box-shadow: 0 0 15px #fff;
+    overflow: hidden;
+    border-bottom: #36688d 3px solid;
+    height: 400px;
+}
+
+#car-make .car{
+    text-align: center;
+    width: 20%;
+    float: left;
+    margin-bottom: 18px
+}
+
+#car-make .car img{
+    width: 50px
+}
+
+.button3 .button1{
+    margin-left: 550px;
+    padding: 10px; 
+}
+
+textarea{
+    width: 70%;    
+    box-sizing:border-box;
+    border-radius: 7px;
+    resize:none;
+    height: 100px;
+}
+
+.button1{
+    background: #f18904;
+    border:0;
+    color:#ffffff;
+    padding: 0 20px 0 20px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+input{
+    width: 250px;
+    padding: 7px;
+    border:0;    
+    border-radius: 7px;
+}
+
+/* style for request */
+#request{
+    background-color: #36688d;
+    color:#ffffff;
+    width: 30%;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 7px;
+}
+
+/* style for footer */
+
+#footer{
+    color:#ffffff;
+    background-color: #f18904; 
+    overflow: hidden;
+    border-top: #36688d 3px solid;   
+}
+
+
+#footer .column{
+    width: 23%;
+    float: left;
+    margin-left: 20px;
+}
+
+#footer ul{
+    list-style-type: none;
+}
+
+#footer li{
+   line-height: 40px;
+
+}
+
+#footer li a{
+    text-decoration: none;
+    color:#ffffff;    
+}
+
+.button2{
+    background: #36688d;
+    border:0;
+    color:#ffffff;
+    padding: 0 20px 0 20px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.newsletter {
+    line-height: 40px;
+    padding: 4px;
+    float: left;
+}
+
+.copyright{
+    color: #ffffff;
+    background-color: #36688d;
+    text-align: center;
+    padding: 10px;   
+}
+
+/* style for car-service page */
+
+#car-manu{
+    text-shadow: #000000;
+    overflow: hidden;
+}
+
+#car-manu ul{
+    list-style-type: none;
+}
+
+.car-make li a{    
+    text-decoration: none;    
+    color:#ffffff;
+    text-shadow: 0 0 30px #000000;
+    line-height: 30px;   
+}
+
+#car-manu .car-make li a{
+}
+
+#car-manu .car-make{
+    width: 20%;
+    float: left;
+}
+
+/* .clock{
+    margin-right: 70%;
+    margin-top: 36%;
+    position: absolute;
+    width: 30%;
+} */
+
